@@ -1,0 +1,96 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .main {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(161, 223, 161);
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  body {
+    background-color: #37ad51;
+  }
+
+  #placement{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(161, 223, 161);
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+  }
+
+  .meme {
+    width: 99%;
+    /* margin: 2 auto; */
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position:relative;
+  }
+
+  .toptxt{
+  position:absolute;
+  top:10px;
+  left:30px;
+  color:#ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  font-stretch: expanded;
+  -webkit-text-stroke: 2px black;
+  z-index:3
+  }
+
+  .bottomtxt{
+  position:absolute;
+  bottom:20px;
+  left:30px;
+  color:#ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  font-stretch: expanded;
+  -webkit-text-stroke: 2px black;
+  z-index:3
+  }
+
+  .meme img{
+  max-width:100%;
+  z-index:2
+  }
+
+  .removebtn{
+    width:100px;
+    margin:auto;
+    display:block;
+  }
+
+  /*FORM STYLING */
+
+  form {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  form input {
+    margin: 2px;
+  }
+
+  form label {
+    margin: 2px;
+  }
+
+  .placement {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
